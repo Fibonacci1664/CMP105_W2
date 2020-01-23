@@ -64,6 +64,7 @@ void Input::setMouseRDown(bool down)
 {
 	mouse.right = down;
 }
+
 bool Input::isMouseRDown()
 {
 	return mouse.right;
